@@ -1,0 +1,7 @@
+.friend-container{
+    border: 1px solid orange;
+    background-color: rgb(202, 180, 199);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,6 @@
+ul{
+    line-height: 40px;   
+}
+nav>ul>li{
+    margin-right: 100px;
+}
