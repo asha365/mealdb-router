@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 
 const Country = () => {
     const {countryName} = useParams();
+    
     return (
         <div>
             <h1 className='text-2xl'>Country Details for: {countryName}</h1>
