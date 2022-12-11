@@ -16,6 +16,7 @@ const Header = () => {
                 <li><CustomLink to='/restaurant'>Restaurant</CustomLink></li>
                 <li><CustomLink to='/friends'>Friends</CustomLink></li>
                 <li><CustomLink to='/posts'>Posts</CustomLink></li>  
+                <li><CustomLink to='/countries'>Countries</CustomLink></li> 
                 <li><CustomLink to='/about'>About</CustomLink></li>  
             </ul>
 

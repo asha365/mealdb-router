@@ -2,6 +2,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
+import Countries from './components/Countries/Countries';
+import CountryDetail from './components/CountryDetail/CountryDetail';
 import Footer from './components/Footer/Footer';
 import FriendDetail from './components/FriendDetail/FriendDetail';
 import Friends from './components/Friends/Friends';
@@ -26,8 +28,10 @@ function App() {
         <Route path='/friend/:friendId' element={<FriendDetail></FriendDetail>}></Route>
         <Route path='/meal/:mealId' element={<MealDetail></MealDetail>}></Route>
         <Route path='/posts' element={<Posts></Posts>}>
-          <Route path=':postId' element={<Post></Post>}></Route>
+        <Route path=':postId' element={<Post></Post>}></Route>
         </Route>
+        <Route path='/countries' element={<Countries></Countries>}></Route>
+        <Route path='/country/:countryName' element={<CountryDetail></CountryDetail>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
